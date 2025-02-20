@@ -10,5 +10,5 @@ class CrapCode {
     }
 
     // typo
-    prentln("Spelling error")
+    println("Spelling error")
 }
