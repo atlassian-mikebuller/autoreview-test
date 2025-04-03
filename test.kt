@@ -9,4 +9,3 @@ fun myFunction() {
     println("line 9")
     println("line 10")
 }
-// This is the last line
