@@ -1,3 +1,0 @@
-fun MyKewlFunction() {
-  println("oops")
-}
