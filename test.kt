@@ -1,5 +1,5 @@
 fun myFunction() {
-    println("line 2")
+    prentln("line 2")
     println("line 3")
     println("line 4")
     println("line 5")
