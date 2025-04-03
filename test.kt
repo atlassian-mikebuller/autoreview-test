@@ -1,4 +1,4 @@
-fun MyKewlFunction() {
+fun myFunction() {
     println("line 1")
     println("line 2")
     println("line 3")
