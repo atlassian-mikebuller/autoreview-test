@@ -11,7 +11,7 @@ fun myFunction() {
     println("line 11")
     println("line 12")
     println("line 13")
-    println("line 14")
+    println("line 14") // Random change
     println("line 17")
     println("line 18")
     println("line 19")
@@ -20,9 +20,9 @@ fun myFunction() {
     println("line 22")
     println("line 23")
     println("line 24")
-    println("line 25")
-    println("line 30")
-    println("line 31")
+    println("line 25") // multi-line-replaced cs across deleted lines
+    println("line 30") // multi-line-replaced cs across deleted lines
+    println("line 31") // multi-line-replaced cs across deleted lines
     println("line 32")
     println("line 33")
     println("line 34")
