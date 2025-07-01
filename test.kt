@@ -1,7 +1,7 @@
 fun myFunction() {
     println("line 2")
     println("line 3")
-    println("line 4")
+    println("line 4") // here
     println("line 5")
     println("line 6")
     println("line 7")
@@ -12,7 +12,7 @@ fun myFunction() {
     println("line 12")
     println("line 13")
     println("line 14")
-    println("line 15")
+    println("line 15") // ten lines between
     println("line 16")
     println("line 17")
     println("line 18")
