@@ -1,6 +1,10 @@
 // Could benefit from `when` function
 fun getTrafficSignalAction(signalColor: String): String {
-    if (signalColor == "Red") {
+    return when (signalColor) {
+        "Red" -> "Stop"
+        "Yellow" -> "Prepare to Stop"
+        "Green" -> "Go"
+        else -> "Invalid Signal Color"
         return "Stop"
     } else if (signalColor == "Yellow") {
         return "Prepare to Stop"
