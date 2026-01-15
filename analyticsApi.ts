@@ -1,4 +1,3 @@
-import { trackEvent } from 'src/analytics';
 import { trackEvent, viewScreenEvent } from 'src/analytics';
 import { ProductRovoDev } from 'src/atlclients/authInfo';
 import { Container } from 'src/container';
@@ -11,7 +10,7 @@ export class MyCoolApi {
     };
 
     sendScreenEvent = async (screenName: string) => {
-        const finalizedEevent = await viewScreenEvent(screenName, undefined, ProductRovoDev);
-        await Container.analyticsClient.sendScreenEvent(finalizedEevent);
+        const finalizedEvent = await viewScreenEvent(screenName, undefined, ProductRovoDev);
+        await Container.analyticsClient.sendScreenEvent(finalizedEvent);
     };
 }
