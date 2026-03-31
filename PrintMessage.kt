@@ -1,3 +1,3 @@
 fun myFun() {
-  prentln("oops")
+  println("oops")
 }
