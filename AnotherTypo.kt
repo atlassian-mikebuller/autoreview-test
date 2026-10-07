@@ -1,5 +1,5 @@
 class AnotherTypo {
     fun doAnotherThing() {
-        prentln("oops")
+        println("oops")
     }
 }
